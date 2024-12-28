@@ -146,7 +146,7 @@ PHP needs tto be installed as that is what osTicket is coded with. To do so, hea
 <img width="400" alt="Screen Shot 2024-12-25 at 11 52 32 AM" src="https://github.com/user-attachments/assets/2cbf6d2f-cd75-4d9d-9de2-e44a195af30d" />
 </p>
 
-An installation wizard will pop up. Select next agree to the license agreement to install PHP. Once completed you can close the wizard
+An installation wizard will pop up. Select 'Next' and agree to the license agreement to install PHP. Once completed you can close the wizard
 
 <p>
 <img width="400" alt="Screen Shot 2024-12-25 at 11 57 48 AM" src="https://github.com/user-attachments/assets/f1a1c18a-e8f2-4172-b002-627599b8418e" />
@@ -409,7 +409,73 @@ Next, permissions need to be assigned for the 'ost-config.php' file to be access
 
 When the properties dialog box appears, select the 'Security' tab at the top and then click the 'Advanced' button
 
+<p>
+<img width="400" alt="Screen Shot 2024-12-27 at 8 19 42 PM" src="https://github.com/user-attachments/assets/af6f8136-5401-4514-aea0-8d1bef5e9c83" />
+<img width="400" alt="Screen Shot 2024-12-27 at 8 20 41 PM" src="https://github.com/user-attachments/assets/281b7232-32eb-4431-be36-cbf7f0e789d4" />
+</p>
 
+Click 'Disable inheritance', then 'Remmove all inherited persmissions from this object'
+
+<p>
+<img width="400" alt="Screen Shot 2024-12-27 at 8 22 49 PM" src="https://github.com/user-attachments/assets/f9826a4f-cc09-4cac-8211-51607a59cde1" />
+<img width="300" alt="Screen Shot 2024-12-27 at 8 23 57 PM" src="https://github.com/user-attachments/assets/744498c3-fdce-4857-afe0-fdd4604c25d5" />
+</p>
+
+All permission entries are now removed. Now click 'Add', then on the permisson entry dialog box click 'Select a principal'
+
+
+<p>
+<img width="400" alt="Screen Shot 2024-12-27 at 8 22 49 PM" src="https://github.com/user-attachments/assets/f9826a4f-cc09-4cac-8211-51607a59cde1" />
+<img width="300" alt="Screen Shot 2024-12-27 at 8 23 57 PM" src="https://github.com/user-attachments/assets/744498c3-fdce-4857-afe0-fdd4604c25d5" />
+</p>
+
+In the object name field below 'Enter the object name to select', type 'Everyone' and click 'OK'
+
+<p>
+<img width="400" alt="Screen Shot 2024-12-27 at 8 29 33 PM" src="https://github.com/user-attachments/assets/130596c7-d98c-4ee8-bd1d-db9b1689a73a" />
+</p>
+
+Now on the permisson entry dialog box check the 'Full control' box under 'Basic permissions' and click 'OK'
+
+<p>
+<img width="400" alt="Screen Shot 2024-12-27 at 8 30 25 PM" src="https://github.com/user-attachments/assets/2351ddc4-02b2-436e-8394-f593c7a6d3b8" />
+<img width="300" alt="Screen Shot 2024-12-27 at 8 31 39 PM" src="https://github.com/user-attachments/assets/10a25b95-f147-477c-a2ca-9dd7a3491dd6" />
+</p>
+
+Now select 'Apply', then 'OK' in the 'Advance Security Settings'. Then 'OK' in the 'ost-config.php Properties' dialog box
+
+<p>
+<img width="400" alt="Screen Shot 2024-12-27 at 8 35 00 PM" src="https://github.com/user-attachments/assets/7ca67419-8d7b-4648-ae92-9b3e084d43da" />
+</p>
+
+Head back to the osTicket website. If you closed it, search 'localhost/osTicket/setup/ in your web browser. Once on the osTicket website, click 'Continue'
+
+
+<p>
+<img width="400" alt="Screen Shot 2024-12-27 at 8 38 52 PM" src="https://github.com/user-attachments/assets/af3b75b1-c050-4502-8676-6749fe0e9654" />
+</p>
+
+Now fill out the form according to your requirements. The Default Email in the 'Systems Settings' and Email Address in 'Admin User' should be different email addresses. Before 'Database Settings' is filled out, HeidiSQL needs to be downloaded. HeidiSQL is used to help manage and interact with the osTicket database
+
+
+<p>
+<img width="400" alt="Screen Shot 2024-12-27 at 8 47 07 PM" src="https://github.com/user-attachments/assets/6ec54937-46fa-47ad-a68c-2df82e25a3a9" />
+</p>
+
+Head back to the osTicket installation files we downloaded and expanded. Once there, double click the 'HeidiSQL_12.3.0.6589_Setup' file
+
+
+<p>
+<img width="400" alt="Screen Shot 2024-12-27 at 8 47 07 PM" src="https://github.com/user-attachments/assets/6ec54937-46fa-47ad-a68c-2df82e25a3a9" />
+</p>
+
+Head back to the osTicket installation files we downloaded and expanded. Once there, double click the 'HeidiSQL_12.3.0.6589_Setup' file
+
+<p>
+
+</p>
+
+An installation wizard will pop up. Check 'I accept the agreement' and select 'Next'. Once completed you can close the wizard
 
 <br />
 
